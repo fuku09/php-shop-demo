@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+html, body, div, span, iframe,
+h1, h2, h3, h4, h5, h6, p, img, a,
+ol, ul, li,
+form, label,
+table, tbody, tfoot, thead, tr, th, td,
+article,footer, header, menu, nav, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  text-decoration: none;
+  vertical-align: baseline;
+}
+
+/* ユニバーサルセレクタで余白リセット */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+header {
+    background-color:black;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1440px;
+      margin: 0 auto;
+  }
+
+/* フロート解除用*/
+  .clearlist {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+
+  /* ヘッダー開始------------------------------*/
+
+  .area_name_header {
+    display: flex;
+    align-items: center; /*上下中央揃え*/
+  }
+
+  .shop_name {
+    color: white;
+  }
+
+  .nav_header{
+      margin-left: auto; /*右揃え*/
+      display: flex;
+  }
+
+  .list_nav_header {
+      display: flex;
+      /*margin-left: 40px;*/
+  }
+
+  /* ▽ の調整 */
+  ul > li > span{
+    margin-left: 1.2em;
+  }
+
+  ul li ul li{
+    display: block;
+  }
+
+  ul li ul li a{
+    background-color: #efefef;
+    color: #444;
+  }
+
+  ul li ul li a:hover{
+    background-color: #ddd;
+  }
+
+  /* ホバーの仕様*/
+  .nav_header ul li ul {
+      display: none;
+  }
+
+  .nav_header ul li:hover ul {
+    display: block;
+  }
+  
+
+  nav ul {
+      list-style: none;
+  }
+
+  nav li {
+      margin-right: 30px;
+  }
+
+  nav a {
+      display: block;
+      text-decoration: none; /* 下のアンダーラインを消す*/
+      color: white;
+  }
+
+  nav a:hover {
+      opacity: 0.7; /*ホバーで文字を透過*/
+  }
+
+  /* ヘッダー終了-----------------------*/
+
+  .area_main {
+    height: 910.66px;
+    background-image: url("image/coffee.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+      /*width: 100%;*/
+  }
+
+  .pc{
+    display: block;
+  }
+  .sp{
+    display: none;
+  }
+
+  .area_concept {
+      text-align: center;
+  }
+
+  .concept_logo {
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .area_concept h2 {
+      font-size: 2.0em;
+  }
+
+  .area_menu {
+      text-align: center;
+      background-color: #F0DFDF;
+  }
+
+  .area_menu h2 {
+    font-size: 2.0em;
+  }
+
+  .menu_box {
+	width: 40%;
+	float: left;
+	margin-left: 100px;
+	margin-bottom: 30px;
+  }
+
+  .menu_box ul {
+      text-align: left;
+      list-style: disc;
+      margin-left: 100px;
+  }
+
+  /*ALL,Food,Drinkのメニュー画像のサイズ調整 */
+  .menu_size { 
+    width: 500px;
+    height: 400px;
+  }
+
+  .area_access {
+      text-align: center;
+  }
+
+  .access_logo {
+      margin-top: 20px;
+  }
+
+  .area_access h2 {
+      font-size: 2.0em;
+  }
+
+  .access_map {
+      float: left;
+      margin-left: 150px;
+      margin-top: 50px;
+  }
+
+  .map_image {
+    width: 450px;
+    height: 300px;
+  }
+
+  .access_description {
+      float: left;
+      margin-left: 100px;
+      margin-top: 50px;
+  }
+
+  .access_description p {
+      text-align: left;
+      margin-top: 10px;
+  }
+
+
+
+  

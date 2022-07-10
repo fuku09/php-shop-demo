@@ -1,0 +1,182 @@
+
+    /* スマホ用 */
+    @media screen and (max-width: 660px) {
+    /*ここにスマホの時のCSS*/
+
+    .container{
+        max-width: 660px;
+    }
+
+    .area_name_header {
+        display: block;
+        align-items: center; /*上下中央揃え*/
+    }
+
+    .list_nav_header {
+        font-size: 15px;
+    }
+
+    .image_cart {
+        margin-left: 10px;
+    }
+
+    .area_main {
+        height: 430px;
+        background-image: url("image/coffee.jpg");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+      }
+
+      .concept_logo {
+          position: center;
+          width: 80%;
+      }
+
+      .menu_logo {
+          width: 80%;
+          margin-top: 20px;
+      }
+
+      .menu_box {
+          width: 100%;
+          margin-left: 0px;
+      }
+      
+      /*ALL,Food,Drinkのメニュー画像のサイズ調整 */
+      .menu_size { 
+        width: 80%;
+        height: 100%;
+      }
+
+      .access_logo {
+        width: 80%;
+        margin-top: 20px;
+      }
+
+      .access_map {
+          float: none;
+          margin-left: 0px;
+          margin-top: 0px;
+      }
+
+      .map_image {
+          width: 350px;
+          height:300px;
+      }
+
+      .access_description {
+          float: none;
+          margin-left: 0px;
+          margin-top: 10px;
+      }
+
+      .area_goods {
+        margin-left: 0px;
+        margin-top: 50px;
+      }
+    
+      .area_time {
+        margin-left: 0px;
+        margin-top: 10px;
+      }
+
+      .btn-red {
+        /*padding: 5px 10px;*/
+        font-size: 12px;
+      }
+
+      /* cart.html */
+    .cart-table {
+        width: 100%;
+        font-size: 12px;
+        margin: 0 auto;
+    }
+
+    .cart-table thead {
+        display: none;
+    }
+
+    .cart-table th,
+    .cart-table td {
+        border: none;
+        padding: 5px 10px;
+        text-align: left;
+    }
+
+    .cart-table td form {
+        text-align: right;
+        width: 90%;
+    }
+    .cart-table tbody th {
+        display: block;
+        text-align: center;
+    }
+
+    .cart-table tbody td::before {
+        content: attr(label);
+        float: left;
+        clear:both;
+        font-weight:bold;
+    }
+
+    .cart-table tr {
+        border: 1px solid #ebeced;
+    }
+
+    .cart-btn .btn{
+        margin-top: 20px;
+    }
+
+    .total td{
+        font-weight: bold;
+        text-align: center;
+        padding: 5px 0;
+    }
+
+    .pay-form {
+        margin-left: 25px;
+    }
+
+    .end_form {
+        width: 70%;
+        margin-left: 50px;
+    }
+
+    /* order_products---------------------*/
+
+    .orders_title h3{
+        margin-left: 15px;
+    }
+
+    .list h4 {
+        margin-left: 15px;
+    }
+
+    .products_table {
+        width: 95%;
+    }
+
+    /* 商品のflex解除用----------------------*/
+    .goods_area {
+        display: block;
+    }
+
+    .goods {
+        width: 80%;
+        height: 100%;
+        margin-top: 20px;
+    }
+
+    .area_goods_image {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .area_goods_description {
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+
+    }

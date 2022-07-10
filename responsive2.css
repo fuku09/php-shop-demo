@@ -1,0 +1,32 @@
+/* スマホ用 */
+@media screen and (max-width: 660px) {
+    /*ここにスマホの時のCSS*/
+
+    .container{
+        max-width: 660px;
+    }
+
+    .area_name_header {
+        display: block;
+        align-items: center; /*上下中央揃え*/
+    }
+
+    .list_nav_header {
+        font-size: 15px;
+    }
+
+    .image_cart {
+        margin-left: 10px;
+    }
+
+    /*ALL,Food,Drinkのメニュー画像のサイズ調整 */
+    .menu_size { 
+        width: 220px;
+        height: 220px;
+    }
+
+    .menu_box ul {
+        display: block;
+    }
+
+}
